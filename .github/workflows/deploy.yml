@@ -1,7 +1,7 @@
 name: Build with local github cache
 on:
   push:
-    branches: [master]
+    branches: master
 
 jobs:
   build:
