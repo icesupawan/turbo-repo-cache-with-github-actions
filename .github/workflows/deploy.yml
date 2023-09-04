@@ -16,7 +16,6 @@ jobs:
                 dependencies:
                   - 'package.json'
                   - 'yarn.lock'
-                  - '.github/**/*'
       - name: Check out code
         uses: actions/checkout@v3
 
